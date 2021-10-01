@@ -3,13 +3,13 @@
 ![finance](https://user-images.githubusercontent.com/22635013/135668767-0686ae61-b165-4357-82c6-47d6a4eb5cba.png)
 
 Um financiamento possui três dados:
--	**totalAmont**: valor total de dinheiro financiado
--	**income**: renda mensal do cliente que está financiando
--	**months**: número de meses do financiamento
+-	``totalAmount``: valor total de dinheiro financiado
+-	``income``: renda mensal do cliente que está financiando
+-	``months``: número de meses do financiamento
 
 E dois métodos:
--	**entry**: entrada do financiamento, igual a 20% do valor total
--	**quota**: prestação mensal do financiamento (sem juros)
+-	``entry``: entrada do financiamento, igual a 20% do valor total
+-	``quota``: prestação mensal do financiamento (sem juros)
 
 Há ainda uma regra: o valor da prestação não pode ser maior que metade da renda mensal do cliente. A seguir alguns exemplos de financiamentos para ajudar a entender a regra:
 
